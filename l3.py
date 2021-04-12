@@ -4,7 +4,7 @@ import base64
 msg = "\r\n I love Computer Networks"
 endmsg = "\r\n.\r\n"
 
-mailserver = ("mail.smtp2go.com", 2525) #Fill in start #Fill in end
+mailserver = ("localhost", 2525) #Fill in start #Fill in end
 
 # Create socket called clientSocket and establish a TCP connection with mailserver
 clientSocket = socket(AF_INET, SOCK_STREAM)
